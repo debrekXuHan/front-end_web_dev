@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CHAPTER_7</title>
+    </head>
+    <body>
+        <h1>Chapter 7: Forms</h1>
+
+        <h2>Input</h2>
+        <!-- action: indicates the server that will receive the information -->
+        <!-- method: get or post -->
+        <form action="http://www.example.com/login.php" method="get">
+            <p>This is where the form controls will appears.</p>
+            <!-- text and password -->
+            <p>Username:
+               <input type="text" name="username" size="15" maxlength="30">
+               <br />
+               Password:
+               <input type="password" name="password" size="15" maxlength="30">
+            </p>
+        </form>
+
+        <form action="http://www.example.com/comments.php">
+            <!-- text area -->
+            <p>What did ou think of this gig?</p>
+            <textarea name="comments" cols="20" rows="4">Enter your comments...</textarea>
+        </form>
+
+        <form action="http://www.example.com/profile.php">
+            <!-- radio button -->
+            <p>Please select your favourite genre: <br />
+               <input type="radio" name="genre" value="rock" checked="checked"> Rock
+               <input type="radio" name="genre" value="pop"> Pop
+               <input type="radio" name="genre" value="jazz"> Jazz
+            </p>
+
+            <!-- checkbox -->
+            <p>Please select your favourite music service(s): <br />
+               <input type="checkbox" name="service" value="itunes" checked="checked"> iTunes
+               <input type="checkbox" name="service" value="lastfm"> Last.fm
+               <input type="checkbox" name="service" value="spotify"> Spotify
+            </p>
+
+            <!-- drop down list box -->
+            <p>What device do you listen to music on?</p>
+            <select name="devices">
+                <option value="ipod" selected="selected">iPod</option>
+                <option value="radio">Radio</option>
+                <option value="computer">Computer</option>
+            </select>
+
+            <!-- multiple select box -->
+            <p>Do you play any of the following instruments?
+               (You can select more than one option by holding
+               down control on a PC or command key on a Mac
+               while selecting different options.)</p>
+            <select name="instruments" size="3" multiple="multiple">
+                <option value="guitar" selected="selected">Guitar</option>
+                <option value="drums">Drums</option>
+                <option value="keyboard">Keyboard</option>
+                <option value="bass">Bass</option>
+            </select>
+        </form>
+
+        <form action="http://www.example.com/upload.php" method="post">
+            <!-- file input box -->
+            <p>Upload your song in MP3 format:</p>
+            <input type="file" name="user-song"><br />
+            <input type="submit" value="Upload">
+        </form>
+
+        <form action="http://www.example.com/subscribe.php">
+            <!-- submit button-->
+            <p>Subscribe to our email list:</p>
+            <input type="text" name="email">
+            <input type="submit" name="subscribe" value="Subscribe">
+        </form>
+
+        <form action="http://www.example.com/subscribe.php">
+            <!-- image button -->
+            <p>Subscribe to our email list:</p>
+            <input type="text" name="email">
+            <input type="image" src="images/subscribe.jpg" width="100" height="20">
+        </form>
+
+        <form action="http://www.example.com/add.php">
+            <!-- button and hidden controls -->
+            <button><img src="images/add.gif" alt="add" width="10" height="10">Add</button>
+            <input type="hidden" name="bookmark" value="lyrics">
+        </form>
+
+        <form action="http://www.example.com/subscribe.php">
+            <!-- labelling form controls -->
+            <label>Age: <input type="text" name="age"></label><br />
+            Gender:
+            <input id="female" type="radio" name="gender" value="f">
+            <label for="female">Female</label>
+            <input id="male" type="radio" name="gender" value="m">
+            <label for="male">Male</label>
+        </form>
+    </body>
+</html>
