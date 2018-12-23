@@ -1,15 +1,11 @@
-body
-{
+body {
     font-family: Arial, Verdana, sans-serif;
 }
 
-h1,
-h2
-{
-    color: #ee3e80;
+h1, h2 {
+    color: #EE3E80;
 }
 
-p
-{
-    color: #654;
+p {
+    color: #665544;
 }
