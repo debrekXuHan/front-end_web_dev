@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CHAPTER_9</title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+        <script type="text/javascript">swfobject.embedSWF("flash/bird.swf", "bird", "400", "300", "8.0.0");</script>
+        <script type="text/javascript">
+            var flashvars = {};
+            var params = {mp3: "audio/test-audio.mp3"};
+            swfobject.embedSWF(
+                "flash/player_mp3_1.0.0.swf",
+                "music-player", "200", "20", "8.0.0",
+                flashvars, params);
+        </script>
+    </head>
+    <body>
+        <h1>Chapter 9: Flash, Audio and Video</h1>
+        <h2>Playing Flash</h2>
+        <div id="bird">
+            <p>An animation of a bird taking a shower</p>
+        </div>
+        <p>
+            Another way to play flash:<br>
+            <embed src="flash/bird.swf" width="400" height="300">
+        </p>
+
+        <h2>Playing Video</h2>
+        <video src="video/puppy.mp4" poster="images/puppy.jpg"
+         width="400" height="300" preload controls loop>
+            <p>A video of a puppy playing in the snow</p>
+        </video>
+
+        <h2>Addding Multiple Videos</h2>
+        <video poster="images/puppy.jpg" width="400" height="320"
+         preload controls loop>
+            <source src="video/puppy.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="video/puppy.webm" type='video/webm; codesc="vp8, vorbis"'>
+            <p>A video of a puppy playing in the snow</p>
+        </video>
+
+        <h2>Playing Music</h2>
+        <div id="music-player">
+            <p>You cannot hear this track because this browser does not support out Flash music player.</p>
+        </div>
+
+        <h2>Adding Audio</h2>
+        <audio src="audio/test-audio.ogg" controls>
+            <p>This browser does not support this format.</p>
+        </audio>
+
+        <h2>Adding Multiple Audio</h2>
+        <audio controls>
+            <source src="audio/test-audio.mp3">
+            <source src="audio/test-audio.ogg">
+            <p>This browser does not support this format.</p>
+        </audio>
+    </body>
+</html>
