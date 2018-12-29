@@ -1,0 +1,26 @@
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: left;
+}
+
+h2 {
+    text-transform: lowercase;
+}
+
+.credits {
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: underline;
+    word-spacing: 0.5em;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.4em;
+    text-align: justify;
+}

@@ -1,0 +1,11 @@
+#six_months {
+    vertical-align: text-top;
+}
+
+#one_year {
+    vertical-align: baseline;
+}
+
+#two_years {
+    vertical-align: text-bottom;
+}
