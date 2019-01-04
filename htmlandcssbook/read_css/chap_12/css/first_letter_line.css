@@ -1,3 +1,4 @@
+/* pseudo elements */
 p.intro:first-letter {
     font-size: 200%;
 }
