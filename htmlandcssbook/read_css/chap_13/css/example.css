@@ -22,7 +22,7 @@ div#logo {
 ul {
     width: 570px;
     padding: 15px;
-    margin: 0 auto 0 auto;
+    margin: 0px auto 0px auto;
     border-top: 2px solid #000000;
     border-bottom: 1px solid #000000;
     text-align: center;
@@ -30,7 +30,7 @@ ul {
 
 li {
     display: inline;
-    margin: 0 3px;
+    margin: 0px 3px;
 }
 
 p {
