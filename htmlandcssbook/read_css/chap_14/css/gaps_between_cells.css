@@ -1,0 +1,18 @@
+table {
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    vertical-align: middle; /* remember this */
+}
+
+td {
+    background-color: #0088dd;
+    padding: 15px;
+    border: 2px solid #000000;
+}
+
+table.one {
+    border-spacing: 5px 15px;
+}
+table.two {
+    border-collapse: collapse;
+}
