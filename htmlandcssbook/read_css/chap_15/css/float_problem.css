@@ -1,0 +1,19 @@
+body {
+    width: 752px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+}
+
+div {
+    border: 1px solid #665544;
+}
+
+p {
+    width: 230px;
+    float: left;
+    margin: 10px;
+}
+
+.clear {
+    clear: left;
+}

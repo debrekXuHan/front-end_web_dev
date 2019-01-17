@@ -1,0 +1,17 @@
+body {
+    width: 960px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+}
+
+.column1 {
+    width: 620px;
+    float: left;
+    margin: 10px;
+}
+
+.column2 {
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
