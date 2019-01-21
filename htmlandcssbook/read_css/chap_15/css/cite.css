@@ -1,0 +1,18 @@
+body {
+    color: #666666;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#page {
+    width: 600px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #d6d6d6;
+    padding: 20px;
+}
+
+h3 {
+    color: #547ca0;
+}

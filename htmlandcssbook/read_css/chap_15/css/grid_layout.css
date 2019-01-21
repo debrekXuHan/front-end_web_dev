@@ -1,0 +1,22 @@
+@import url(960_12_col.css);  /*use modular grid css file*/
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+}
+
+#nav, #feature, .article, #footer {
+    background-color: #efefef;
+    margin-top: 20px;
+    padding: 10px 0 5px 0;
+}
+
+#feature, .article {
+    height: 100px;
+}
