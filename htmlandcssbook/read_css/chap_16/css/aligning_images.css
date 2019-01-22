@@ -1,0 +1,19 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #665544;
+}
+
+img.medium {
+    width: 250px;
+    height: 250px;
+}
+
+img.align_left {
+    float: left;
+    margin-right: 10px;
+}
+
+img.align_right {
+    float: right;
+    margin-left: 10px;
+}

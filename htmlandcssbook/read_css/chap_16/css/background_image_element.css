@@ -1,0 +1,11 @@
+body {
+    color: #665544;
+    padding: 20px;
+}
+
+p {
+    background-image: url(../images/pattern.gif);
+    color: #ffffff;
+    /* check the inheritable attribute */
+    padding: 20px;
+}
