@@ -1,0 +1,32 @@
+a.button {
+    height: 36px;
+    background-image: url(../images/button-sprite.jpg);
+    text-indent: -9999px;
+    display: inline-block;
+}
+
+a#add_to_basket {
+    width: 174px;
+    background-position: 0 0;
+}
+a#add_to_basket:hover {
+    width: 174px;
+    background-position: 0 -40px;
+}
+a#add_to_basket:active {
+    width: 174px;
+    background-position: 0 -80px;
+}
+
+a#framing_options {
+    width: 210px;
+    background-position: -175px 0;
+}
+a#framing_options:hover {
+    width: 210px;
+    background-position: -175px -40px;
+}
+a#framing_options:active {
+    width: 210px;
+    background-position: -175px -80px;
+}
