@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #3d3a37;
+    background-color: #eeeceb;
+}
+
+.page {
+    clear: both;
+    width: 960px;
+    margin: 140px auto 0px auto;
+}
+
+.column1 {
+    width: 300px;
+    float: left;
+    margin: 0px 10px;
+}
+
+a {
+    color: #e2764a;
+    text-decoration: none;
+}
