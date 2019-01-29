@@ -1,7 +1,6 @@
 // init three variables
-var price = 0;
-var quantity = 0;
-var total = 0;
+// shorthand of variables' statement
+var price = 0, quantity = 0, total = 0;
 
 // assign values to variable
 price = 5;
